@@ -1,0 +1,40 @@
+# Code
+.DS_Store
+Thumbs.db
+*.log
+
+# Runtime
+runtime/cache/
+runtime/logs/
+
+# Local secrets/config (keep templates in repo if needed)
+*.env
+*.env.*
+secrets/
+private/
+*.key
+*.pem
+
+# Captures / sessions / protocol dumps (DO NOT COMMIT)
+**/*.chls
+**/*.chlsj
+**/*.amf
+**/*.rsp.amf
+**/*.req.amf
+**/*.csv
+
+# Flash client binaries / cached resources (usually large and/or copyrighted)
+client/swf/
+client/assets/
+client/locale/
+client/manifest/
+
+# Server public large data dumps (optional; keep out of public repo by default)
+server/public/skills.json
+server/public/spec_skills.json
+
+# Server public cached/static resources (likely derived from game content)
+server/public/assets/
+server/public/config/
+server/public/php_xml/
+server/public/manifest/
