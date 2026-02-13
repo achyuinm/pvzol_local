@@ -10,6 +10,7 @@ runtime/logs/
 # Local secrets/config (keep templates in repo if needed)
 *.env
 *.env.*
+server/app/config.local.php
 secrets/
 private/
 *.key
