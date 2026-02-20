@@ -1,0 +1,10 @@
+﻿{
+    "php_exe":  "C:\\\\php\\\\php.exe",
+    "flash_player_path":  "C:\\Program Files\\Flash Player\\flashplayer_sa.exe",
+    "bind_host":  "0.0.0.0",
+    "port":  8081,
+    "doc_root":  "D:\\\\Hreta_working\\\\server\\\\game_root\\\\server\\\\public",
+    "router_php":  "D:\\\\Hreta_working\\\\server\\\\game_root\\\\server\\\\public\\\\router.php",
+    "base_path":  "/pvz/",
+    "seed":  "local"
+}

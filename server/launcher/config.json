@@ -1,0 +1,30 @@
+{
+  "php": {
+    "enable": true,
+    "exe": "server/php.exe",
+    "host": "127.0.0.1",
+    "port": 8081,
+    "doc_root": "server/public",
+    "router": "server/public/router.php"
+  },
+
+  "flash": {
+    "exe": "flash/flashplayer_sa.exe",
+    "swf": "http://127.0.0.1:8081/main.swf",
+    "params": {
+      "base_url": "http://127.0.0.1:8081/",
+      "seed": "local"
+    }
+  },
+
+  "window": {
+    "fullscreen": false,
+    "width": 1280,
+    "height": 720
+  },
+
+  "debug": {
+    "show_console": true,
+    "wait_server_ms": 800
+  }
+}

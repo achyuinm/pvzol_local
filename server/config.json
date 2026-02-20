@@ -1,0 +1,8 @@
+{
+  "openbox": {
+    "replay_guard": {
+      "enabled": false,
+      "ttl_seconds": 5
+    }
+  }
+}
